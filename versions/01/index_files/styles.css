@@ -1,0 +1,296 @@
+body {
+  background-color: #000120ff;
+  z-index: 0;
+}
+
+h1 {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 5vw;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: #000120ff;
+}
+
+.text-blue {
+  color: #000120ff;
+}
+
+.autohide {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform:translateY(-100%); 
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform:translateY(0); 
+  transition: all 0.3s ease-in-out;
+}
+
+.bumper-top {
+  position: relative;
+  visibility: hidden;
+  top: 0;
+  margin-top: 100vh;
+  z-index: 0;
+}
+
+.logo-pos {
+  top: 40%;
+}
+
+.sas-top {
+  top: 0px;
+}
+
+@media (max-width: 2000px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 1050px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 35%;
+  }
+}
+  
+@media (max-width: 1800px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 950px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 30%;
+  }
+}
+
+@media (max-width: 1600px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 850px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 25%;
+  }
+}
+
+@media (max-width: 1400px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 750px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 20%;
+  }
+}
+
+@media (max-width: 1200px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 650px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 20%;
+  }
+}
+
+@media (max-width: 992px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 550px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 20%;
+  }
+}
+
+@media (max-width: 768px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 410px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 15%;
+  }
+  .sas-top {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 505px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 300px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 15%;
+  }
+  .sas-top {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 390px){
+  .bumper-top {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    margin-top: 250px;
+    z-index: 0;
+  }
+  .logo-pos {
+    top: 15%;
+  }
+  .sas-top {
+    margin-top: 40px;
+  }
+}
+
+.prlx_logo {
+  width: 100vw;
+  position: absolute;
+  z-index: 10;
+}
+
+
+#prlx_lyr_1 {
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+}
+
+#prlx_lyr_2 {
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+#prlx_lyr_3 {
+  width: 100vw;
+  position: absolute;
+  z-index: -2;
+}
+
+#prlx_lyr_4 {
+  width: 100vw;
+  position: absolute;
+  z-index: -3;
+}
+
+#prlx_lyr_5 {
+  width: 100vw;
+  position: absolute;
+  z-index: -4;
+}
+
+#prlx_lyr_6 {
+  width: 100vw;
+  position: absolute;
+  z-index: -5;
+}
+
+#prlx_lyr_7 {
+  width: 100vw;
+  position: absolute;
+  z-index: -6;
+}
+
+#prlx_lyr_8 {
+  width: 100vw;
+  position: absolute;
+  z-index: -7;
+}
+
+#prlx_lyr_9 {
+  width: 100vw;
+  position: absolute;
+  z-index: -8;
+}
+
+#prlx_lyr_10 {
+  width: 100vw;
+  position: absolute;
+  z-index: -9;
+}
+
+.truths-section {
+  background-color: #000120ff;
+  width: 100%;
+  position: relative;
+  padding: 40px 0 40px 0;
+}
+
+.col-12 img {
+  opacity: 0.7;
+  cursor: pointer;
+  width: 100%;
+}
+  
+.col-12 img:hover {
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.future-sitings-section {
+  background-color: white;
+  width: 100vw;
+  position: relative;
+  padding: 40px 0 40px 0;
+  z-index: 110;
+}
+  
+.custom-section {
+  background-color: #000120ff;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  padding: 40px 0 40px 0;
+  z-index: 110;
+}
+
+.icon-box {
+  text-align: center;
+  padding: 40px 0 40px 0;
+  background-color: white;
+}
+
+.icon {
+  color: #000120ff;
+  margin: 10px;
+}
